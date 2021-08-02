@@ -58,29 +58,13 @@ const clickHandler = event => {
     if(event.target.style.backgroundColor == 'seagreen'){
         pScore.innerText = (+pScore.innerText + 1);
         // sound1.pScorelay();
-        
-    }
+     }
     else{
         pScore.innerText = 0;
     }
 }
 
-// box1.addEventListener('',)
 box1.addEventListener('click', clickHandler)
 box2.addEventListener('click', clickHandler)
 box3.addEventListener('click', clickHandler)
 box4.addEventListener('click', clickHandler)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
